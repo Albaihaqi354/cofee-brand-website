@@ -16,4 +16,4 @@ const nextConfig = {
   assetPrefix: isGithubPages ? '/cofee-brand-website/' : '',
 };
 
-module.exports = nextConfig;
+export default nextConfig;
