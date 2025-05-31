@@ -30,23 +30,6 @@ Landing page modern untuk brand kopi lokal Indonesia yang menampilkan produk ung
 
 ---
 
-## ⚙️ Instalasi & Pengembangan Lokal
-
-```bash
-# clone project
-git clone https://github.com/albaihaqi354/cofee-brand-website.git
-cd cofee-brand-website
-
-# install dependencies
-pnpm install
-
-# run dev server
-pnpm dev
-
-
-
----
-
 ## 🙌 Credits
 
 Website ini dikembangkan oleh Bian Albaihaqi sebagai bagian dari proyek klien dan dokumentasi portofolio pribadi.
