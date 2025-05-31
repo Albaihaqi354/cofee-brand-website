@@ -61,7 +61,7 @@ export default function CoffeeBrandWebsite() {
       name: "Arabika Premium",
       description: "Kopi arabika pilihan dari dataran tinggi dengan cita rasa fruity dan aroma floral yang menawan.",
       price: "Rp 85.000",
-      image: "/image/arabika.jpg?height=300&width=300",
+      image: `${process.env.PUBLIC_URL}/image/arabika.jpg?height=300&width=300`,
       origin: "Aceh Gayo",
       process: "Honey Process",
       notes: ["Fruity", "Floral", "Sweet"],
@@ -71,7 +71,7 @@ export default function CoffeeBrandWebsite() {
       name: "Robusta Tradisional",
       description: "Robusta asli Indonesia dengan body yang kuat dan rasa pahit yang seimbang, cocok untuk espresso.",
       price: "Rp 65.000",
-      image: "/image/robusta.jpg?height=300&width=300",
+      image: `${process.env.PUBLIC_URL}/image/robusta.jpg?height=300&width=300`,
       origin: "Lampung",
       process: "Natural Process",
       notes: ["Bold", "Earthy", "Chocolate"],
@@ -81,7 +81,7 @@ export default function CoffeeBrandWebsite() {
       name: "Blend Nusantara",
       description: "Perpaduan sempurna arabika dan robusta yang menciptakan harmoni rasa khas Indonesia.",
       price: "Rp 75.000",
-      image: "/image/blend.jpg?height=300&width=300",
+      image: `${process.env.PUBLIC_URL}/image/blend.jpg?height=300&width=300`,
       origin: "Multi-Origin",
       process: "Mixed Process",
       notes: ["Balanced", "Nutty", "Caramel"],
@@ -94,21 +94,21 @@ export default function CoffeeBrandWebsite() {
       role: "Coffee Enthusiast",
       comment: "Kopi terbaik yang pernah saya coba! Aroma dan rasanya benar-benar autentik Indonesia.",
       rating: 5,
-      avatar: "/placeholder.svg?height=60&width=60",
+      avatar: `${process.env.PUBLIC_URL}/placeholder.svg?height=60&width=60`,
     },
     {
       name: "Budi Santoso",
       role: "Barista Professional",
       comment: "Kualitas biji kopinya konsisten dan sangat cocok untuk berbagai metode brewing.",
       rating: 5,
-      avatar: "/placeholder.svg?height=60&width=60",
+      avatar: `${process.env.PUBLIC_URL}/placeholder.svg?height=60&width=60`,
     },
     {
       name: "Maya Putri",
       role: "Cafe Owner",
       comment: "Pelanggan saya selalu puas dengan kopi dari brand ini. Highly recommended!",
       rating: 5,
-      avatar: "/placeholder.svg?height=60&width=60",
+      avatar: `${process.env.PUBLIC_URL}/placeholder.svg?height=60&width=60`,
     },
   ]
 
@@ -190,7 +190,7 @@ export default function CoffeeBrandWebsite() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat shadow-[inset_0_-100px_100px_rgba(0,0,0,0.15)]"
           style={{
-            backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/image/coffee-hero.jpg')`,
+           backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${process.env.PUBLIC_URL}/image/coffee-hero.jpg)`,
           }}
         />
 
@@ -243,7 +243,7 @@ export default function CoffeeBrandWebsite() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="/image/petani-coffee.jpg"
+                src={`${process.env.PUBLIC_URL}/image/petani-coffee.jpg`}
                 alt="Coffee plantation"
                 className="rounded-lg shadow-lg w-full"
               />
