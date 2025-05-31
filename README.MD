@@ -1,0 +1,64 @@
+# ☕ Coffee Brand Website
+
+Landing page modern untuk brand kopi lokal Indonesia yang menampilkan produk unggulan, cerita petani, dan misi sosial brand. Website ini dikembangkan menggunakan Next.js dan Tailwind CSS, dan dirancang agar responsif serta mudah dikembangkan lebih lanjut.
+
+> 🎯 Proyek ini dibuat untuk klien dan juga menjadi bagian dari portofolio pribadi saya, [Bian Albaihaqi](https://github.com/albaihaqi354).
+
+## 🚀 Demo
+
+🔗 [Live Preview](https://albaihaqi354.github.io/cofee-brand-website)  
+📸 ![Screenshot](./public/image/screenshot-landingpage.jpg)
+
+---
+
+## 📦 Fitur
+
+- 🎨 Desain elegan dan responsif
+- 🛍️ Daftar produk lengkap dengan gambar dan deskripsi
+- 🌱 Cerita petani kopi untuk memperkuat branding lokal
+- 🔍 Modal detail produk
+- 🌗 Siap untuk dark mode *(opsional)*
+- ⚡ Performant dan statis (Static Export for GitHub Pages)
+
+---
+
+## 🛠️ Stack Teknologi
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Icons & UI**: [Lucide Icons](https://lucide.dev/), [ShadCN UI](https://ui.shadcn.com/)
+- **Package Manager**: [pnpm](https://pnpm.io/)
+
+---
+
+## 📁 Struktur Folder
+
+cofee-brand-website/
+├── public/
+│ └── image/
+│ ├── coffee-hero.jpg
+│ ├── arabika.jpg
+│ ├── robusta.jpg
+│ ├── liberika.jpg
+│ └── petani-coffee.jpg
+├── app/ atau pages/
+│ ├── index.tsx / index.jsx
+│ └── layout.tsx (jika pakai App Router)
+├── components/
+│ ├── Hero.tsx
+│ ├── ProductCard.tsx
+│ ├── ProductModal.tsx
+│ └── Footer.tsx
+├── styles/
+│ └── globals.css
+├── tailwind.config.js
+├── next.config.js
+├── package.json
+└── README.md
+
+
+---
+
+## 🙌 Credits
+
+Website ini dikembangkan oleh Bian Albaihaqi sebagai bagian dari proyek klien dan dokumentasi portofolio pribadi.
