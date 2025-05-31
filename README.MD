@@ -30,33 +30,18 @@ Landing page modern untuk brand kopi lokal Indonesia yang menampilkan produk ung
 
 ---
 
-## 📁 Struktur Folder
+## ⚙️ Instalasi & Pengembangan Lokal
 
-cofee-brand-website/
-├── public/
-│   └── image/
-│       ├── coffee-hero.jpg
-│       ├── arabika.jpg
-│       ├── robusta.jpg
-│       ├── liberika.jpg
-│       └── petani-coffee.jpg
-├── app/             
-│   ├── layout.tsx
-│   └── page.tsx
-│   OR
-├── pages/           
-│   └── index.tsx
-├── components/
-│   ├── Hero.tsx
-│   ├── ProductCard.tsx
-│   ├── ProductModal.tsx
-│   └── Footer.tsx
-├── styles/
-│   └── globals.css
-├── tailwind.config.js
-├── next.config.js
-├── package.json
-└── README.md
+```bash
+# clone project
+git clone https://github.com/albaihaqi354/cofee-brand-website.git
+cd cofee-brand-website
+
+# install dependencies
+pnpm install
+
+# run dev server
+pnpm dev
 
 
 
