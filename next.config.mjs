@@ -1,19 +1,19 @@
-/** @type {import('next').NextConfig} */
-const isGithubPages = process.env.NODE_ENV === 'production';
+const isProd = process.env.NODE_ENV === 'production';
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: isProd ? '/cofee-brand-website' : '',
+  assetPrefix: isProd ? '/cofee-brand-website/' : '',
+  images: {
+    unoptimized: true,
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },
   typescript: {
     ignoreBuildErrors: true,
   },
-  images: {
-    unoptimized: true,
-  },
-  output: 'export',
-  basePath: isGithubPages ? '/cofee-brand-website' : '',
-  assetPrefix: isGithubPages ? '/cofee-brand-website/' : '',
 };
 
 export default nextConfig;
