@@ -7,7 +7,6 @@ Landing page modern untuk brand kopi lokal Indonesia yang menampilkan produk ung
 ## 🚀 Demo
 
 🔗 [Live Preview](https://albaihaqi354.github.io/cofee-brand-website)  
-📸 ![Screenshot](./public/image/screenshot-landingpage.jpg)
 
 ---
 
@@ -35,26 +34,30 @@ Landing page modern untuk brand kopi lokal Indonesia yang menampilkan produk ung
 
 cofee-brand-website/
 ├── public/
-│ └── image/
-│ ├── coffee-hero.jpg
-│ ├── arabika.jpg
-│ ├── robusta.jpg
-│ ├── liberika.jpg
-│ └── petani-coffee.jpg
-├── app/ atau pages/
-│ ├── index.tsx / index.jsx
-│ └── layout.tsx (jika pakai App Router)
+│   └── image/
+│       ├── coffee-hero.jpg
+│       ├── arabika.jpg
+│       ├── robusta.jpg
+│       ├── liberika.jpg
+│       └── petani-coffee.jpg
+├── app/             
+│   ├── layout.tsx
+│   └── page.tsx
+│   OR
+├── pages/           
+│   └── index.tsx
 ├── components/
-│ ├── Hero.tsx
-│ ├── ProductCard.tsx
-│ ├── ProductModal.tsx
-│ └── Footer.tsx
+│   ├── Hero.tsx
+│   ├── ProductCard.tsx
+│   ├── ProductModal.tsx
+│   └── Footer.tsx
 ├── styles/
-│ └── globals.css
+│   └── globals.css
 ├── tailwind.config.js
 ├── next.config.js
 ├── package.json
 └── README.md
+
 
 
 ---
