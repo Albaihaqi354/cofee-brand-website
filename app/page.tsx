@@ -94,21 +94,21 @@ export default function CoffeeBrandWebsite() {
       role: "Coffee Enthusiast",
       comment: "Kopi terbaik yang pernah saya coba! Aroma dan rasanya benar-benar autentik Indonesia.",
       rating: 5,
-      avatar: "/placeholder.svg?height=60&width=60",
+      avatar: "./placeholder.svg?height=60&width=60",
     },
     {
       name: "Budi Santoso",
       role: "Barista Professional",
       comment: "Kualitas biji kopinya konsisten dan sangat cocok untuk berbagai metode brewing.",
       rating: 5,
-      avatar: "/placeholder.svg?height=60&width=60",
+      avatar: "./placeholder.svg?height=60&width=60",
     },
     {
       name: "Maya Putri",
       role: "Cafe Owner",
       comment: "Pelanggan saya selalu puas dengan kopi dari brand ini. Highly recommended!",
       rating: 5,
-      avatar: "/placeholder.svg?height=60&width=60",
+      avatar: "./placeholder.svg?height=60&width=60",
     },
   ]
 
@@ -243,7 +243,7 @@ export default function CoffeeBrandWebsite() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="/image/petani-coffee.jpg"
+                src="./image/petani-coffee.jpg"
                 alt="Coffee plantation"
                 className="rounded-lg shadow-lg w-full"
               />
@@ -394,7 +394,7 @@ export default function CoffeeBrandWebsite() {
           <div className="grid md:grid-cols-2 gap-12">
             <Card className="overflow-hidden">
               <img
-                src="/image/pak-joko.jpg?height=300&width=500"
+                src="./image/pak-joko.jpg?height=300&width=500"
                 alt="Coffee farmer"
                 className="w-full h-64 object-cover"
               />
@@ -410,7 +410,7 @@ export default function CoffeeBrandWebsite() {
 
             <Card className="overflow-hidden">
               <img
-                src="/image/honey.jpg?height=300&width=500"
+                src="./image/honey.jpg?height=300&width=500"
                 alt="Coffee processing"
                 className="w-full h-64 object-cover"
               />
@@ -441,7 +441,7 @@ export default function CoffeeBrandWebsite() {
               <Card key={index} className="text-center hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
                   <img
-                    src={testimonial.avatar || "/placeholder.svg"}
+                    src={testimonial.avatar || "./placeholder.svg"}
                     alt={testimonial.name}
                     className="w-16 h-16 rounded-full mx-auto mb-4 object-cover"
                   />
